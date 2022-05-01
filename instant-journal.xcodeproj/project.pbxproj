@@ -14,19 +14,12 @@
 		B52B5DA0281C330000C05346 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B52B5D9F281C330000C05346 /* Assets.xcassets */; };
 		B52B5DA3281C330000C05346 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B52B5DA1281C330000C05346 /* LaunchScreen.storyboard */; };
 		B52B5DAE281C330000C05346 /* instant_journalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52B5DAD281C330000C05346 /* instant_journalTests.swift */; };
-		B52B5DB8281C330000C05346 /* instant_journalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52B5DB7281C330000C05346 /* instant_journalUITests.swift */; };
-		B52B5DBA281C330000C05346 /* instant_journalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52B5DB9281C330000C05346 /* instant_journalUITestsLaunchTests.swift */; };
+		B52B5DC8281C372200C05346 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = B52B5DC7281C372200C05346 /* FirebaseAnalytics */; };
+		B52B5DCA281C372200C05346 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = B52B5DC9281C372200C05346 /* FirebaseStorage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		B52B5DAA281C330000C05346 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B52B5D8B281C32FD00C05346 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B52B5D92281C32FD00C05346;
-			remoteInfo = "instant-journal";
-		};
-		B52B5DB4281C330000C05346 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B52B5D8B281C32FD00C05346 /* Project object */;
 			proxyType = 1;
@@ -46,9 +39,6 @@
 		B52B5DA4281C330000C05346 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B52B5DA9281C330000C05346 /* instant-journalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "instant-journalTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B52B5DAD281C330000C05346 /* instant_journalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = instant_journalTests.swift; sourceTree = "<group>"; };
-		B52B5DB3281C330000C05346 /* instant-journalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "instant-journalUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B52B5DB7281C330000C05346 /* instant_journalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = instant_journalUITests.swift; sourceTree = "<group>"; };
-		B52B5DB9281C330000C05346 /* instant_journalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = instant_journalUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,17 +46,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B52B5DC8281C372200C05346 /* FirebaseAnalytics in Frameworks */,
+				B52B5DCA281C372200C05346 /* FirebaseStorage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		B52B5DA6281C330000C05346 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B52B5DB0281C330000C05346 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -81,7 +66,6 @@
 			children = (
 				B52B5D95281C32FD00C05346 /* instant-journal */,
 				B52B5DAC281C330000C05346 /* instant-journalTests */,
-				B52B5DB6281C330000C05346 /* instant-journalUITests */,
 				B52B5D94281C32FD00C05346 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,7 +75,6 @@
 			children = (
 				B52B5D93281C32FD00C05346 /* instant-journal.app */,
 				B52B5DA9281C330000C05346 /* instant-journalTests.xctest */,
-				B52B5DB3281C330000C05346 /* instant-journalUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -118,15 +101,6 @@
 			path = "instant-journalTests";
 			sourceTree = "<group>";
 		};
-		B52B5DB6281C330000C05346 /* instant-journalUITests */ = {
-			isa = PBXGroup;
-			children = (
-				B52B5DB7281C330000C05346 /* instant_journalUITests.swift */,
-				B52B5DB9281C330000C05346 /* instant_journalUITestsLaunchTests.swift */,
-			);
-			path = "instant-journalUITests";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +117,10 @@
 			dependencies = (
 			);
 			name = "instant-journal";
+			packageProductDependencies = (
+				B52B5DC7281C372200C05346 /* FirebaseAnalytics */,
+				B52B5DC9281C372200C05346 /* FirebaseStorage */,
+			);
 			productName = "instant-journal";
 			productReference = B52B5D93281C32FD00C05346 /* instant-journal.app */;
 			productType = "com.apple.product-type.application";
@@ -165,24 +143,6 @@
 			productReference = B52B5DA9281C330000C05346 /* instant-journalTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		B52B5DB2281C330000C05346 /* instant-journalUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B52B5DC3281C330000C05346 /* Build configuration list for PBXNativeTarget "instant-journalUITests" */;
-			buildPhases = (
-				B52B5DAF281C330000C05346 /* Sources */,
-				B52B5DB0281C330000C05346 /* Frameworks */,
-				B52B5DB1281C330000C05346 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B52B5DB5281C330000C05346 /* PBXTargetDependency */,
-			);
-			name = "instant-journalUITests";
-			productName = "instant-journalUITests";
-			productReference = B52B5DB3281C330000C05346 /* instant-journalUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -200,10 +160,6 @@
 						CreatedOnToolsVersion = 13.1;
 						TestTargetID = B52B5D92281C32FD00C05346;
 					};
-					B52B5DB2281C330000C05346 = {
-						CreatedOnToolsVersion = 13.1;
-						TestTargetID = B52B5D92281C32FD00C05346;
-					};
 				};
 			};
 			buildConfigurationList = B52B5D8E281C32FD00C05346 /* Build configuration list for PBXProject "instant-journal" */;
@@ -215,13 +171,15 @@
 				Base,
 			);
 			mainGroup = B52B5D8A281C32FD00C05346;
+			packageReferences = (
+				B52B5DC6281C372200C05346 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = B52B5D94281C32FD00C05346 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				B52B5D92281C32FD00C05346 /* instant-journal */,
 				B52B5DA8281C330000C05346 /* instant-journalTests */,
-				B52B5DB2281C330000C05346 /* instant-journalUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -238,13 +196,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		B52B5DA7281C330000C05346 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B52B5DB1281C330000C05346 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -272,15 +223,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B52B5DAF281C330000C05346 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B52B5DBA281C330000C05346 /* instant_journalUITestsLaunchTests.swift in Sources */,
-				B52B5DB8281C330000C05346 /* instant_journalUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -288,11 +230,6 @@
 			isa = PBXTargetDependency;
 			target = B52B5D92281C32FD00C05346 /* instant-journal */;
 			targetProxy = B52B5DAA281C330000C05346 /* PBXContainerItemProxy */;
-		};
-		B52B5DB5281C330000C05346 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B52B5D92281C32FD00C05346 /* instant-journal */;
-			targetProxy = B52B5DB4281C330000C05346 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -455,7 +392,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -482,7 +419,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -534,50 +471,6 @@
 			};
 			name = Release;
 		};
-		B52B5DC4281C330000C05346 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "benleung.instant-journalUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "instant-journal";
-			};
-			name = Debug;
-		};
-		B52B5DC5281C330000C05346 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "benleung.instant-journalUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "instant-journal";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -608,16 +501,31 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B52B5DC3281C330000C05346 /* Build configuration list for PBXNativeTarget "instant-journalUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B52B5DC4281C330000C05346 /* Debug */,
-				B52B5DC5281C330000C05346 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B52B5DC6281C372200C05346 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B52B5DC7281C372200C05346 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B52B5DC6281C372200C05346 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		B52B5DC9281C372200C05346 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B52B5DC6281C372200C05346 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B52B5D8B281C32FD00C05346 /* Project object */;
 }
