@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B50B91AC2822737F00FC0324 /* ObserverWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50B91AB2822737F00FC0324 /* ObserverWrapper.swift */; };
+		B50B91AE2822740E00FC0324 /* ObservableWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50B91AD2822740E00FC0324 /* ObservableWrapper.swift */; };
+		B50B91B02822B5D400FC0324 /* FloatingPanel.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B50B91AF2822B5D400FC0324 /* FloatingPanel.xcframework */; };
+		B50B91B12822B5D400FC0324 /* FloatingPanel.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B50B91AF2822B5D400FC0324 /* FloatingPanel.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B50B91B42822DB3E00FC0324 /* NewEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50B91B32822DB3E00FC0324 /* NewEntryViewController.swift */; };
+		B50B91B72822E19C00FC0324 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50B91B62822E19C00FC0324 /* ProfileViewController.swift */; };
+		B50B91B92822E35800FC0324 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50B91B82822E35800FC0324 /* HomeViewController.swift */; };
 		B52B5D97281C32FD00C05346 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52B5D96281C32FD00C05346 /* AppDelegate.swift */; };
 		B52B5D99281C32FD00C05346 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52B5D98281C32FD00C05346 /* SceneDelegate.swift */; };
 		B52B5D9B281C32FD00C05346 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52B5D9A281C32FD00C05346 /* ViewController.swift */; };
@@ -16,6 +23,20 @@
 		B52B5DAE281C330000C05346 /* instant_journalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52B5DAD281C330000C05346 /* instant_journalTests.swift */; };
 		B52B5DC8281C372200C05346 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = B52B5DC7281C372200C05346 /* FirebaseAnalytics */; };
 		B52B5DCA281C372200C05346 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = B52B5DC9281C372200C05346 /* FirebaseStorage */; };
+		B52B5DCD281FC8D900C05346 /* AppMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52B5DCC281FC8D900C05346 /* AppMain.swift */; };
+		B52B5DCF281FC97000C05346 /* Routing.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52B5DCE281FC97000C05346 /* Routing.swift */; };
+		B52B5DD1281FD39700C05346 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52B5DD0281FD39700C05346 /* Router.swift */; };
+		B52B5DD3281FD65300C05346 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52B5DD2281FD65300C05346 /* RootViewController.swift */; };
+		B52B5DD5281FE10500C05346 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52B5DD4281FE10500C05346 /* AppModel.swift */; };
+		B52B5DD8281FE25D00C05346 /* RxBlocking.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B52B5DD7281FE25D00C05346 /* RxBlocking.xcframework */; };
+		B52B5DD9281FE25D00C05346 /* RxBlocking.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B52B5DD7281FE25D00C05346 /* RxBlocking.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B52B5DDC281FE26300C05346 /* RxCocoa.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B52B5DDB281FE26300C05346 /* RxCocoa.xcframework */; };
+		B52B5DDD281FE26300C05346 /* RxCocoa.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B52B5DDB281FE26300C05346 /* RxCocoa.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B52B5DDF281FE26700C05346 /* RxRelay.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B52B5DDE281FE26700C05346 /* RxRelay.xcframework */; };
+		B52B5DE0281FE26700C05346 /* RxRelay.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B52B5DDE281FE26700C05346 /* RxRelay.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B52B5DE2281FE26A00C05346 /* RxSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B52B5DE1281FE26A00C05346 /* RxSwift.xcframework */; };
+		B52B5DE3281FE26A00C05346 /* RxSwift.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B52B5DE1281FE26A00C05346 /* RxSwift.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B52B5DE828201C9A00C05346 /* AppTabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52B5DE728201C9A00C05346 /* AppTabBarItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +49,31 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		B52B5DDA281FE25D00C05346 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B52B5DE0281FE26700C05346 /* RxRelay.xcframework in Embed Frameworks */,
+				B52B5DE3281FE26A00C05346 /* RxSwift.xcframework in Embed Frameworks */,
+				B50B91B12822B5D400FC0324 /* FloatingPanel.xcframework in Embed Frameworks */,
+				B52B5DD9281FE25D00C05346 /* RxBlocking.xcframework in Embed Frameworks */,
+				B52B5DDD281FE26300C05346 /* RxCocoa.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		B50B91AB2822737F00FC0324 /* ObserverWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserverWrapper.swift; sourceTree = "<group>"; };
+		B50B91AD2822740E00FC0324 /* ObservableWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableWrapper.swift; sourceTree = "<group>"; };
+		B50B91AF2822B5D400FC0324 /* FloatingPanel.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FloatingPanel.xcframework; path = Carthage/Build/FloatingPanel.xcframework; sourceTree = "<group>"; };
+		B50B91B32822DB3E00FC0324 /* NewEntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewEntryViewController.swift; sourceTree = "<group>"; };
+		B50B91B62822E19C00FC0324 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		B50B91B82822E35800FC0324 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		B52B5D93281C32FD00C05346 /* instant-journal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "instant-journal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B52B5D96281C32FD00C05346 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B52B5D98281C32FD00C05346 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +84,17 @@
 		B52B5DA4281C330000C05346 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B52B5DA9281C330000C05346 /* instant-journalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "instant-journalTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B52B5DAD281C330000C05346 /* instant_journalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = instant_journalTests.swift; sourceTree = "<group>"; };
+		B52B5DCC281FC8D900C05346 /* AppMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMain.swift; sourceTree = "<group>"; };
+		B52B5DCE281FC97000C05346 /* Routing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routing.swift; sourceTree = "<group>"; };
+		B52B5DD0281FD39700C05346 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		B52B5DD2281FD65300C05346 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		B52B5DD4281FE10500C05346 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		B52B5DD7281FE25D00C05346 /* RxBlocking.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxBlocking.xcframework; path = Carthage/Build/RxBlocking.xcframework; sourceTree = "<group>"; };
+		B52B5DDB281FE26300C05346 /* RxCocoa.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxCocoa.xcframework; path = Carthage/Build/RxCocoa.xcframework; sourceTree = "<group>"; };
+		B52B5DDE281FE26700C05346 /* RxRelay.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxRelay.xcframework; path = Carthage/Build/RxRelay.xcframework; sourceTree = "<group>"; };
+		B52B5DE1281FE26A00C05346 /* RxSwift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxSwift.xcframework; path = Carthage/Build/RxSwift.xcframework; sourceTree = "<group>"; };
+		B52B5DE4281FE26C00C05346 /* RxTest.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxTest.xcframework; path = Carthage/Build/RxTest.xcframework; sourceTree = "<group>"; };
+		B52B5DE728201C9A00C05346 /* AppTabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabBarItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,7 +103,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B52B5DC8281C372200C05346 /* FirebaseAnalytics in Frameworks */,
+				B52B5DDC281FE26300C05346 /* RxCocoa.xcframework in Frameworks */,
+				B52B5DD8281FE25D00C05346 /* RxBlocking.xcframework in Frameworks */,
+				B52B5DE2281FE26A00C05346 /* RxSwift.xcframework in Frameworks */,
+				B52B5DDF281FE26700C05346 /* RxRelay.xcframework in Frameworks */,
 				B52B5DCA281C372200C05346 /* FirebaseStorage in Frameworks */,
+				B50B91B02822B5D400FC0324 /* FloatingPanel.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,12 +122,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B50B91AA2822735600FC0324 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				B50B91AB2822737F00FC0324 /* ObserverWrapper.swift */,
+				B50B91AD2822740E00FC0324 /* ObservableWrapper.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		B50B91B22822D7B700FC0324 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B50B91B32822DB3E00FC0324 /* NewEntryViewController.swift */,
+				B50B91B62822E19C00FC0324 /* ProfileViewController.swift */,
+				B50B91B82822E35800FC0324 /* HomeViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B50B91B52822DFBB00FC0324 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		B52B5D8A281C32FD00C05346 = {
 			isa = PBXGroup;
 			children = (
 				B52B5D95281C32FD00C05346 /* instant-journal */,
 				B52B5DAC281C330000C05346 /* instant-journalTests */,
 				B52B5D94281C32FD00C05346 /* Products */,
+				B52B5DD6281FE25D00C05346 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -82,6 +170,10 @@
 		B52B5D95281C32FD00C05346 /* instant-journal */ = {
 			isa = PBXGroup;
 			children = (
+				B50B91B52822DFBB00FC0324 /* ViewModel */,
+				B50B91B22822D7B700FC0324 /* Views */,
+				B50B91AA2822735600FC0324 /* Util */,
+				B52B5DCB281FC8BE00C05346 /* Common */,
 				B52B5D96281C32FD00C05346 /* AppDelegate.swift */,
 				B52B5D98281C32FD00C05346 /* SceneDelegate.swift */,
 				B52B5D9A281C32FD00C05346 /* ViewController.swift */,
@@ -101,6 +193,32 @@
 			path = "instant-journalTests";
 			sourceTree = "<group>";
 		};
+		B52B5DCB281FC8BE00C05346 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				B52B5DCC281FC8D900C05346 /* AppMain.swift */,
+				B52B5DCE281FC97000C05346 /* Routing.swift */,
+				B52B5DD0281FD39700C05346 /* Router.swift */,
+				B52B5DD2281FD65300C05346 /* RootViewController.swift */,
+				B52B5DD4281FE10500C05346 /* AppModel.swift */,
+				B52B5DE728201C9A00C05346 /* AppTabBarItem.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		B52B5DD6281FE25D00C05346 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B50B91AF2822B5D400FC0324 /* FloatingPanel.xcframework */,
+				B52B5DE4281FE26C00C05346 /* RxTest.xcframework */,
+				B52B5DE1281FE26A00C05346 /* RxSwift.xcframework */,
+				B52B5DDE281FE26700C05346 /* RxRelay.xcframework */,
+				B52B5DDB281FE26300C05346 /* RxCocoa.xcframework */,
+				B52B5DD7281FE25D00C05346 /* RxBlocking.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -111,6 +229,7 @@
 				B52B5D8F281C32FD00C05346 /* Sources */,
 				B52B5D90281C32FD00C05346 /* Frameworks */,
 				B52B5D91281C32FD00C05346 /* Resources */,
+				B52B5DDA281FE25D00C05346 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -209,8 +328,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B50B91AE2822740E00FC0324 /* ObservableWrapper.swift in Sources */,
+				B52B5DCF281FC97000C05346 /* Routing.swift in Sources */,
+				B50B91AC2822737F00FC0324 /* ObserverWrapper.swift in Sources */,
 				B52B5D9B281C32FD00C05346 /* ViewController.swift in Sources */,
 				B52B5D97281C32FD00C05346 /* AppDelegate.swift in Sources */,
+				B50B91B92822E35800FC0324 /* HomeViewController.swift in Sources */,
+				B52B5DD5281FE10500C05346 /* AppModel.swift in Sources */,
+				B52B5DD3281FD65300C05346 /* RootViewController.swift in Sources */,
+				B52B5DE828201C9A00C05346 /* AppTabBarItem.swift in Sources */,
+				B52B5DCD281FC8D900C05346 /* AppMain.swift in Sources */,
+				B52B5DD1281FD39700C05346 /* Router.swift in Sources */,
+				B50B91B72822E19C00FC0324 /* ProfileViewController.swift in Sources */,
+				B50B91B42822DB3E00FC0324 /* NewEntryViewController.swift in Sources */,
 				B52B5D99281C32FD00C05346 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -380,7 +510,7 @@
 				INFOPLIST_FILE = "instant-journal/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -407,7 +537,7 @@
 				INFOPLIST_FILE = "instant-journal/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

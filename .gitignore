@@ -1,0 +1,12 @@
+.DS_Store
+
+# mint
+.mint/
+
+## User settings
+xcuserdata/
+
+# Carthage
+Carthage/Checkouts
+
+Carthage/Build/

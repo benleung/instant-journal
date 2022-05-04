@@ -1,21 +1,19 @@
 //
-//  ViewController.swift
+//  HomeViewController.swift
 //  instant-journal
 //
-//  Created by Ben Leung on 2022/04/29.
+//  Created by Ben Leung on 2022/05/05.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class HomeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
         // Do any additional setup after loading the view.
-        
-//        self.view.backgroundColor = .red
+        view.backgroundColor = .blue
     }
 
-
 }
-
