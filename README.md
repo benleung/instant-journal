@@ -10,5 +10,13 @@ brew install mint
 
 Then, you run the bootstrap command below in the project directory.
 
-```
-make bo
+## Technology Stack
+- MVVM
+- ReSwift (Redux like framework)
+- RxSwift
+- Firebase (Firestore, Authentication)
+- Package Management
+  - Carthage
+  - Swift Package Manager
+
+## Screen shots

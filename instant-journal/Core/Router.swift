@@ -26,7 +26,9 @@ class Router {
             let vc = ProfileViewController()// FIXME  ViewController
             return vc
         case .newEntry:
-            let vc = NewEntryViewController()
+            let vc = NewEntryViewController(initViewModel: {
+                NewEntryViewModel()
+            })
             let nav = UINavigationController(rootViewController: vc)// FIXME  ViewController
             nav.modalPresentationStyle = .fullScreen
             nav.navigationBar.isHidden = false

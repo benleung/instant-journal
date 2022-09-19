@@ -35,7 +35,7 @@ final class AppMain: NSObject {
         tabBarController.view.frame = Router.shared.rootViewController.view.bounds
         Router.shared.rootViewController.addChild(tabBarController)
         Router.shared.rootViewController.view.addSubview(tabBarController.view)
-        tabBarController.didMove(toParent: Router.shared.rootViewController)
+        tabBarController.didMove(toParent: Router.shared.rootViewController) // FIXME: unnecessary?
         
         // setup tabItem
         setViewControllers(items: AppTabBarItem.allCases)
@@ -47,12 +47,7 @@ final class AppMain: NSObject {
     private func bindModel() {
         output.showEntryInputModal
             .subscribe(onNext: { [weak self] in
-                // FIXME WIP
-//                self?.tabBarController.present(UIViewController(), animated: true)
-//                self?.tabBarController.selectedViewController?.navigationController?.present(UIViewController(), animated: true)
                 let vc = Router.shared.controller(routingPage: .newEntry)
-//                let nav = UINavigationController(rootViewController: vc)
-//                nav.navigationBar.backgroundColor = .lightGray
                 
                 Router.shared.rootViewController.present(vc, animated: true)
             })
@@ -104,3 +99,4 @@ extension AppMain: UITabBarControllerDelegate {
         // do nothing
     }
 }
+
